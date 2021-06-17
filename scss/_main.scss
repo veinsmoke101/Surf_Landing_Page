@@ -1,0 +1,65 @@
+
+.main{
+    height: 100vh;
+    
+    overflow: hidden;
+    background-image: url(../images/Jansen_Mexico_HiRes-6cb0b383cfcd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position : relative;
+    .overlay{
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color:#00000057;
+        z-index: 1;
+    }
+    .txt{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        .heading{
+            z-index: 2;
+            text-align: center;
+            position: absolute;
+            color: white;
+            top: 40%;
+            left:5% ;
+            h1{
+                font-family: "SummerFont";
+                font-size:85px;
+            }
+            h5{
+                font-size: 20px;
+                font-family: 'Roboto', sans-serif;
+            }
+              
+        } 
+    } 
+    //wavy design
+    .custom-shape-divider-bottom-1623886113 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+        z-index: 10;
+    }
+    
+    .custom-shape-divider-bottom-1623886113 svg {
+        position: relative;
+        display: block;
+        width: calc(300% + 1.3px);
+        height: 103px;
+    }
+    
+    .custom-shape-divider-bottom-1623886113 .shape-fill {
+        fill: #FFFFFF;
+    }
+
+
+}

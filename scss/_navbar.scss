@@ -1,0 +1,84 @@
+.navbar .container{
+    z-index: 4;
+    color: white;
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding: 30px;
+    
+    .logo-container{
+        margin-left: 7%;
+     .logo{
+         font-weight: bolder;
+         transform: scale(1.2);
+        cursor: pointer;
+        font-family: 'Original Surfer', cursive;
+        }
+    }
+
+     .nav-items
+    {  
+        margin-left: auto;
+        font-family: 'Poppins', sans-serif;
+
+        .nav-links{
+        display: flex;
+        flex-direction: row;
+        
+            .nav-item{
+                font-size: 19px;
+                
+                list-style: none;
+                margin: 0 40px;
+                cursor: pointer;
+                padding: 5px 0;
+                transition: transform 0.25s ease-in;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+
+                }
+            }
+            .btn{
+                color: white;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 15px;
+                padding: 5px 2rem;
+                
+               
+            }
+        }
+    }
+}
+.sticky .container{
+    color: #1b9cc6;
+    background-color: white;
+    position : fixed;
+    z-index: 100;
+    padding: 20px;
+    -webkit-box-shadow: 0px 3px 9px -4px #000000; 
+    box-shadow: 0px 3px 9px -4px #000000;
+        .nav-items .nav-links 
+        {
+            
+            .nav-item a{
+                text-decoration: none;
+                color: #1b9cc6;
+
+            }
+            .btn{
+                background-color: #1b9cc6;
+                
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+                }
+        }
+}
